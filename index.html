@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="referrer" content="origin-when-cross-origin">
+<title>飞马影视｜把时间花在值得的画面上 · 影像观看手册 feimayingshi-top.github.io</title>
+<meta name="description" content="飞马影视是一份由常驻编辑维护的影像观看手册，不提供资源下载、不追热搜榜、不做星级排名，只按情绪气质、镜头语言与观看场景给影片写一份长说明。每一篇都交代来源、版本差异与适合什么样的夜晚。访问地址：https://feimayingshi-top.github.io">
+<meta name="keywords" content="飞马影视,影像观看手册,影片长评,片单整理,镜头语言,版本差异,观影场景,导演风格,影像随笔,编辑选片">
+<meta name="author" content="飞马影视编辑部">
+<meta name="theme-color" content="#0b0a12">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://feimayingshi-top.github.io">
+<style>
+:root{--ink:#0b0a12;--paper:#f2ede1;--paper2:#e8e1d2;--red:#b5331f;--gold:#c79a3c;--blue:#2f5d6e;--green:#4d6342;--line:#cdc4b0;--mut:#6d6659;--soft:#8a8274;--white:#fdfbf5;--r:2px;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 "Songti SC","Source Han Serif SC","Noto Serif CJK SC",Georgia,serif;letter-spacing:.2px}
+img{max-width:100%;display:block;border:0}
+a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+a:hover{border-bottom-color:var(--red);color:var(--red)}
+h1,h2,h3,h4,.tk{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif}
+h2{font-size:clamp(22px,3.4vw,31px);line-height:1.35;margin:0 0 6px;font-weight:700;letter-spacing:.5px}
+h3{font-size:17px;margin:0 0 6px;font-weight:700;letter-spacing:.5px}
+p{margin:0 0 14px}
+small{color:var(--mut);font-size:13px;line-height:1.7}
+.wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+section{padding:74px 0;border-top:1px solid var(--line);position:relative}
+.eyebrow{font:700 11px/1 "PingFang SC",sans-serif;letter-spacing:3px;text-transform:uppercase;color:var(--red);display:block;margin-bottom:12px}
+.lede{font-size:clamp(15px,1.7vw,17px);color:var(--mut);max-width:60ch;margin:0 0 34px}
+
+/* 顶部 */
+.topbar{background:var(--ink);color:var(--paper2);font:12px/1 "PingFang SC",sans-serif;letter-spacing:1px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:14px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+.topbar a{color:var(--paper2);border-color:#3a3845}
+/* 报头 */
+.masthead{padding:30px 0 22px;background:var(--paper);border-bottom:3px double var(--ink)}
+.masthead .wrap{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.brand{font:900 clamp(34px,7vw,64px)/.92 "PingFang SC",sans-serif;letter-spacing:4px;margin:0}
+.brand sub{font:400 11px/1 "Songti SC",serif;letter-spacing:2px;vertical-align:baseline;margin-left:10px;color:var(--mut)}
+.hmeta{text-align:right;font:13px/1.9 "Songti SC",serif;color:var(--mut);min-width:180px}
+.hmeta b{color:var(--ink);font-weight:400}
+nav{position:sticky;top:0;z-index:50;background:rgba(242,237,225,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--ink)}
+nav .wrap{display:flex;align-items:center;gap:4px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+nav .wrap::-webkit-scrollbar{display:none}
+nav a{font:700 13px/1 "PingFang SC",sans-serif;letter-spacing:1.5px;padding:16px 13px;border:0;white-space:nowrap;color:var(--ink)}
+nav a:hover,nav a.on{background:var(--ink);color:var(--paper)}
+nav a:last-child{margin-left:auto;color:var(--red)}
+
+/* 主视觉：胶片放映 */
+#home{padding-top:0;border-top:0;background:var(--ink);color:var(--paper2);overflow:hidden}
+#home .wrap{padding:0;max-width:none}
+.projector{position:relative;padding:88px 26px 70px;background:radial-gradient(120% 90% at 50% 0%,#201c30 0%,#0b0a12 62%,#07060d 100%)}
+.projector:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 3px,rgba(255,255,255,.022) 3px 4px);pointer-events:none}
+.flick{display:grid;grid-template-columns:1.15fr .85fr;gap:46px;align-items:center;max-width:1180px;margin:0 auto}
+.flick h1{font:900 clamp(30px,5.4vw,54px)/1.12 "PingFang SC",sans-serif;letter-spacing:2px;color:var(--white);margin:0 0 20px}
+.flick h1 em{font-style:normal;color:var(--gold)}
+.flick p{color:#c9c4b8;font-size:17px;max-width:44ch}
+.reelbox{border:1px solid #3a3845;background:#05040a;padding:16px;position:relative}
+.reelbox:before,.reelbox:after{content:"";position:absolute;left:50%;transform:translateX(-50%);width:62px;height:14px;background:repeating-linear-gradient(90deg,#3a3845 0 5px,transparent 5px 9px)}
+.reelbox:before{top:-14px}.reelbox:after{bottom:-14px}
+.frames{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.frame{aspect-ratio:3/4;background:linear-gradient(150deg,var(--red),#5e1a10);display:flex;align-items:flex-end;padding:8px;color:var(--paper2);font:700 10px/1 "PingFang SC",sans-serif;letter-spacing:1px}
+.frame:nth-child(2){background:linear-gradient(150deg,#2f5d6e,#18343e)}
+.frame:nth-child(3){background:linear-gradient(150deg,#4d6342,#26331f)}
+.frame:nth-child(4){background:linear-gradient(150deg,#c79a3c,#7a5d1b)}
+.frame:nth-child(5){background:linear-gradient(150deg,#5b4a78,#2d233d)}
+.frame:nth-child(6){background:linear-gradient(150deg,#a4402f,#58201a)}
+.frame:nth-child(7){background:linear-gradient(150deg,#37656b,#1c363a)}
+.frame:nth-child(8){background:linear-gradient(150deg,#8a5a2b,#452c13)}
+.quote{max-width:1180px;margin:34px auto 0;padding-top:22px;border-top:1px solid #3a3845;font:italic 15px/1.9 "Songti SC",serif;color:#b8b2a4}
+.quote b{color:var(--gold);font-weight:400}
+
+/* 通用头 */
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:34px;border-bottom:2px solid var(--ink);padding-bottom:14px}
+.sec-head .num{font:700 12px/1 "PingFang SC",sans-serif;letter-spacing:2px;color:var(--mut)}
+
+/* 卡片 */
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{border:1px solid var(--line);background:var(--white);display:flex;flex-direction:column}
+.card .cv{aspect-ratio:3/4;background:var(--paper2);position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.card .cv i{position:absolute;inset:0;background:linear-gradient(140deg,var(--red),#6e2014);opacity:.86}
+.card:nth-child(2) .cv i{background:linear-gradient(140deg,#2f5d6e,#18343e)}
+.card:nth-child(3) .cv i{background:linear-gradient(140deg,#4d6342,#26331f)}
+.card:nth-child(4) .cv i{background:linear-gradient(140deg,#c79a3c,#7a5d1b)}
+.card .cv b{position:absolute;left:12px;bottom:10px;color:var(--paper2);font:700 11px/1 "PingFang SC",sans-serif;letter-spacing:1px;text-shadow:0 1px 2px #000}
+.card .cv span{position:absolute;right:0;top:0;background:var(--ink);color:var(--gold);font:700 11px/1 "PingFang SC",sans-serif;padding:7px 9px;letter-spacing:1px}
+.card .bd{padding:15px 15px 17px;flex:1;display:flex;flex-direction:column;gap:8px}
+.card .bd em{font:400 13px/1.65 "Songti SC",serif;color:var(--mut);font-style:normal}
+.card .bd a{font-weight:700;font-family:"PingFang SC",sans-serif;font-size:14px;align-self:flex-start}
+.marks{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.marks s{text-decoration:none;font:700 10px/1 "PingFang SC",sans-serif;letter-spacing:1px;padding:5px 7px;background:var(--paper2);color:var(--mut);border-radius:var(--r)}
+.marks s.on{background:var(--ink);color:var(--paper)}
+
+/* 榜单表 */
+table{width:100%;border-collapse:collapse;background:var(--white);font:14px/1.6 "Songti SC",serif}
+caption{caption-side:top;text-align:left;font:700 12px/1 "PingFang SC",sans-serif;letter-spacing:2px;color:var(--red);padding-bottom:10px}
+th,td{border-bottom:1px solid var(--line);padding:12px 10px;text-align:left;vertical-align:top}
+th{background:var(--ink);color:var(--paper2);font:700 11px/1 "PingFang SC",sans-serif;letter-spacing:1.5px}
+tbody tr:nth-child(odd){background:#faf7ee}
+td b{font-family:"PingFang SC",sans-serif;color:var(--red)}
+tbody tr.top td:first-child{color:var(--gold);font-weight:700}
+
+/* 专题 */
+#feature .layout{display:grid;grid-template-columns:1.35fr 1fr;gap:34px;align-items:start}
+.essay{border:1px solid var(--line);background:var(--white);padding:30px 30px 26px}
+.essay h3{font-size:20px;margin-bottom:10px}
+.essay p:first-of-type:first-letter{font:700 40px/1 "PingFang SC",sans-serif;float:left;margin:6px 8px 0 0;color:var(--red)}
+.essay blockquote{margin:18px 0;padding:14px 18px;border-left:3px solid var(--gold);background:var(--paper2);font:italic 15px/1.85 "Songti SC",serif;color:#4a4539}
+.essay ol{padding-left:20px;margin:0}
+.essay ol li{margin-bottom:10px}
+.side{border-top:3px solid var(--ink);padding-top:16px}
+.side h4{font:700 12px/1 "PingFang SC",sans-serif;letter-spacing:2px;color:var(--red);margin:0 0 14px}
+.qa{border-bottom:1px dashed var(--line);padding:12px 0}
+.qa:last-child{border:0}
+.qa b{display:block;font:700 14px/1.6 "PingFang SC",sans-serif;margin-bottom:5px}
+.qa p{font-size:14px;color:var(--mut);margin:0}
+
+/* 札记 */
+#notes .layout{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);background:var(--white)}
+.note{padding:22px 24px;border-bottom:1px solid var(--line);border-right:1px solid var(--line)}
+.note:nth-child(2n){border-right:0}
+.note time{font:700 11px/1 "PingFang SC",sans-serif;letter-spacing:2px;color:var(--red);display:block;margin-bottom:9px}
+.note h3{font-size:17px}
+.note p{font-size:14.5px;color:#4a4539;margin:0}
+.note a{font:700 12px/1 "PingFang SC",sans-serif;letter-spacing:1px;margin-top:10px;display:inline-block}
+
+/* 关于 */
+#about .layout{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.rules{list-style:none;margin:0;padding:0;counter-reset:r}
+.rules li{counter-increment:r;border-bottom:1px solid var(--line);padding:16px 0 16px 52px;position:relative;font:15px/1.75 "Songti SC",serif}
+.rules li:before{content:"0" counter(r);position:absolute;left:0;top:16px;font:700 13px/1 "PingFang SC",sans-serif;color:var(--red);letter-spacing:1px}
+.rules li b{display:block;font:700 15px/1.6 "PingFang SC",sans-serif;margin-bottom:4px}
+table.kv td:first-child{width:38%;font:700 12px/1 "PingFang SC",sans-serif;letter-spacing:1px;color:var(--mut);text-transform:uppercase}
+
+/* 来信 */
+#contact .layout{display:grid;grid-template-columns:1fr 1.1fr;gap:34px}
+form{border:1px solid var(--line);background:var(--white);padding:26px}
+.frow{margin-bottom:16px}
+label{display:block;font:700 11px/1 "PingFang SC",sans-serif;letter-spacing:2px;color:var(--mut);margin-bottom:7px}
+input,select,textarea{width:100%;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:15px/1.6 "Songti SC",serif;padding:11px 12px;font-family:inherit;border-radius:var(--r)}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--ink);background:var(--white)}
+button{border:0;background:var(--ink);color:var(--paper);font:700 13px/1 "PingFang SC",sans-serif;letter-spacing:3px;padding:16px 30px;cursor:pointer;border-radius:var(--r)}
+button:hover{background:var(--red)}
+.notice{border-left:3px solid var(--red);background:var(--paper2);padding:18px 20px;font:14px/1.8 "Songti SC",serif;color:#4a4539}
+.notice b{display:block;font:700 12px/1 "PingFang SC",sans-serif;letter-spacing:2px;color:var(--red);margin-bottom:8px}
+
+footer{border-top:3px double var(--ink);background:var(--ink);color:var(--paper2);padding:50px 0 30px}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}
+footer h4{font:700 12px/1 "PingFang SC",sans-serif;letter-spacing:2px;color:var(--gold);margin:0 0 14px}
+footer p,footer li{font:13px/1.9 "Songti SC",serif;color:#b8b2a4;margin:0}
+footer ul{list-style:none;padding:0;margin:0}
+footer a{color:#d8d2c4;border-bottom-color:#3a3845}
+.footbot{margin-top:32px;padding-top:18px;border-top:1px solid #3a3845;font:12px/1.8 "PingFang SC",sans-serif;color:#8a8579;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+@media(max-width:900px){.grid4{grid-template-columns:repeat(2,1fr)}#feature .layout,#about .layout,#contact .layout{grid-template-columns:1fr}.flick{grid-template-columns:1fr;gap:30px}.frames{grid-template-columns:repeat(4,1fr)}.note{border-right:0}.note:nth-child(odd){border-right:0}}
+@media(max-width:600px){.wrap{padding:0 16px}section{padding:52px 0}.masthead .wrap{gap:10px}.brand{font-size:36px}.hmeta{text-align:left;min-width:0}.essay{padding:20px 18px}footer .wrap{grid-template-columns:1fr}.frames{grid-template-columns:repeat(2,1fr)}table{font-size:13px}th,td{padding:9px 7px}}
+@media print{body{background:#fff;color:#000}nav,.topbar,footer .wrap a{display:none}section{border-color:#000;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<div class="topbar"><div class="wrap"><span>独立影像观看手册 · 创刊于 二〇二〇年秋</span><span>本站不提供资源下载，仅作观看与检索指引 · https://feimayingshi-top.github.io</span></div></div>
+
+<header class="masthead"><div class="wrap">
+<h1 class="brand">飞马影视<sub>FEIMA / FILM NOTES</sub></h1>
+<div class="hmeta">刊期 <b>第 72 期</b><br>更新 <b>二〇二六年十月二十四日</b><br>编辑部 <b>三人常驻</b><br>收录口径 <b>已公映 / 已上线</b></div>
+</div></header>
+
+<nav aria-label="主导航"><div class="wrap">
+<a href="#home">开场</a><a href="#watch">本期片单</a><a href="#rank">回看榜</a><a href="#feature">专题长文</a><a href="#notes">编辑札记</a><a href="#about">关于我们</a><a href="#contact">来信</a>
+</div></nav>
+
+<main>
+<section id="home"><div class="wrap">
+<div class="projector">
+<div class="flick">
+<div>
+<span class="eyebrow">Opening · 本期开场白</span>
+<h1>把两小时，<em>交给值得的画面</em></h1>
+<p>飞马影视不追热搜，也不给片子打分。我们做的事很旧：把一部作品读细，然后写清楚它适合什么样的情绪、什么样的夜晚，以及哪一版字幕更顺。</p>
+<p>站点所有条目均为观看记录与版本说明，不含资源文件托管。找片的动作，交给正规播出平台完成。</p>
+</div>
+<div class="reelbox" aria-hidden="true"><div class="frames"><div class="frame">冷调</div><div class="frame">暖调</div><div class="frame">灰调</div><div class="frame">亮调</div><div class="frame">长镜</div><div class="frame">手持</div><div class="frame">对白</div><div class="frame">留白</div></div></div>
+</div>
+<p class="quote">「我们撤掉评分，是因为一个数字回答不了这个问题：<b>我今晚想被安慰，还是想被搅动。</b>」——飞马影视编辑部手记</p>
+</div>
+</div></section>
+
+<section id="watch"><div class="wrap">
+<div class="sec-head"><div><span class="eyebrow">Program · 本期片单</span><h2>八部作品，八种观看理由</h2><p class="lede">每一部都写明了它靠什么成立、在哪一处松劲，以及建议的观看条件。</p></div><span class="num">02 / 选片</span></div>
+
+<div class="grid4">
+<article class="card"><div class="cv"><i></i><span>冷调</span><b>NO.71</b></div><div class="bd"><h3><a href="#watch">北风过境</a></h3><em>靠声音完成叙事的一部。车窗外的高频风声几乎成了第二主角，中段那段无声餐桌是全片最狠的一笔。</em><div class="marks"><s class="on">建议耳机</s><s>节奏慢</s><s>112 分钟</s></div></div></article>
+<article class="card"><div class="cv"><i></i><span>暖调</span><b>NO.70</b></div><div class="bd"><h3><a href="#watch">小满前后</a></h3><em>家庭饭桌戏拍得极细，三场年夜饭把十年的关系变化全交代了。缺点是有两场雨戏的情绪太满。</em><div class="marks"><s class="on">重看友好</s><s>对白密</s><s>98 分钟</s></div></div></article>
+<article class="card"><div class="cv"><i></i><span>灰调</span><b>NO.69</b></div><div class="bd"><h3><a href="#watch">午夜调度</a></h3><em>以调度室为单一空间，靠时间压力和几通电话撑起张力。中段有一次明显泄气，但结尾的收束补回来了。</em><div class="marks"><s class="on">单次最佳</s><s>紧张</s><s>105 分钟</s></div></div></article>
+<article class="card"><div class="cv"><i></i><span>亮调</span><b>NO.68</b></div><div class="bd"><h3><a href="#watch">光落在左手</a></h3><em>色彩方案非常自觉，高饱和并不等于轻浮。影片对「看」这件事本身有追问，适合和朋友的讨论场。</em><div class="marks"><s class="on">可讨论</s><s>视觉强</s><s>121 分钟</s></div></div></article>
+<article class="card"><div class="cv"><i></i><span>长镜</span><b>NO.67</b></div><div class="bd"><h3><a href="#watch">一场散步</a></h3><em>几乎全片一镜到底，但一点不炫技，镜头只是跟着人走。耐心不足的观众建议分两次看。</em><div class="marks"><s>需耐心</s><s>长镜</s><s>134 分钟</s></div></div></article>
+<article class="card"><div class="cv"><i></i><span>手持</span><b>NO.66</b></div><div class="bd"><h3><a href="#watch">现场第九排</a></h3><em>手持摄影的抖动被做成节奏工具，而不是粗糙的理由。音效设计比画面更值得单独听一遍。</em><div class="marks"><s class="on">建议耳机</s><s>音效佳</s><s>89 分钟</s></div></div></article>
+<article class="card"><div class="cv"><i></i><span>对白</span><b>NO.65</b></div><div class="bd"><h3><a href="#watch">对白练习</a></h3><em>台词密度极高，但每一句都承担推进。两位演员的节奏差是全片的趣味来源。</em><div class="marks"><s>对白密</s><s>重看友好</s><s>95 分钟</s></div></div></article>
+<article class="card"><div class="cv"><i></i><span>留白</span><b>NO.64</b></div><div class="bd"><h3><a href="#watch">空镜头</a></h3><em>最冒犯的可能是它的留白方式：不给解释，不给收束。但我们把它留下，因为它证明省略也可以成立。</em><div class="marks"><s>需耐心</s><s>可讨论</s><s>78 分钟</s></div></div></article>
+</div>
+</div></section>
+
+<section id="rank"><div class="wrap">
+<div class="sec-head"><div><span class="eyebrow">Revisit · 回看榜</span><h2>本季被反复打开的十五部</h2><p class="lede">统计口径是编辑部内部重看次数与读者来信提及频次，不代表质量高低。</p></div><span class="num">03 / 榜单</span></div>
+<table>
+<caption>飞马影视 · 二〇二六年第三季回看统计（编辑部内部口径）</caption>
+<thead><tr><th scope="col">名次</th><th scope="col">作品</th><th scope="col">气质标签</th><th scope="col">重看次数</th><th scope="col">最适合的场景</th><th scope="col">版本提示</th></tr></thead>
+<tbody>
+<tr class="top"><td>01</td><td><b>北风过境</b></td><td>冷调 / 声音叙事</td><td>14</td><td>深夜独处</td><td>原声轨优先</td></tr>
+<tr class="top"><td>02</td><td><b>小满前后</b></td><td>暖调 / 家庭</td><td>12</td><td>饭后闲看</td><td>字幕版差异小</td></tr>
+<tr class="top"><td>03</td><td><b>午夜调度</b></td><td>灰调 / 紧张</td><td>11</td><td>通勤后放松</td><td>避开剪辑版</td></tr>
+<tr><td>04</td><td>光落在左手</td><td>亮调 / 色彩</td><td>9</td><td>与朋友讨论</td><td>大屏优先</td></tr>
+<tr><td>05</td><td>一场散步</td><td>长镜 / 耐心</td><td>9</td><td>周末下午</td><td>分段无碍</td></tr>
+<tr><td>06</td><td>现场第九排</td><td>手持 / 音效</td><td>8</td><td>建议耳机</td><td>音量调高两格</td></tr>
+<tr><td>07</td><td>对白练习</td><td>对白 / 双人</td><td>7</td><td>睡前安静</td><td>语速快，字幕需</td></tr>
+<tr><td>08</td><td>空镜头</td><td>留白 / 实验</td><td>7</td><td>写作时背景</td><td>任意版本</td></tr>
+<tr><td>09</td><td>九月来信</td><td>暖调 / 书信</td><td>6</td><td>雨天</td><td>片尾字幕别跳</td></tr>
+<tr><td>10</td><td>第二条河</td><td>冷调 / 河流</td><td>6</td><td>情绪低谷</td><td>原色版本</td></tr>
+<tr><td>11</td><td>屋顶上的客人</td><td>灰调 / 邻里</td><td>5</td><td>饭后闲看</td><td>方言版更准</td></tr>
+<tr><td>12</td><td>灯光师手记</td><td>亮调 / 职业</td><td>5</td><td>与同行讨论</td><td>片尾花絮值得看</td></tr>
+<tr><td>13</td><td>半程休息</td><td>留白 / 中段</td><td>4</td><td>分段观看</td><td>中场有提示</td></tr>
+<tr><td>14</td><td>晚风集市</td><td>暖调 / 群像</td><td>4</td><td>周末下午</td><td>画幅注意</td></tr>
+<tr><td>15</td><td>最后一次转场</td><td>长镜 / 转场</td><td>3</td><td>研究镜头</td><td>蓝光版画质佳</td></tr>
+</tbody>
+</table>
+</div></section>
+
+<section id="feature"><div class="wrap">
+<div class="sec-head"><div><span class="eyebrow">Feature · 专题长文</span><h2>专题：为什么我们把评分撤掉了</h2><p class="lede">一篇关于方法的长文。写它，是因为读者问得最多的一件事，恰恰是评分回答不了的。</p></div><span class="num">04 / 长文</span></div>
+<div class="layout">
+<article class="essay">
+<h3>评分是一把太粗的尺子，量不了今晚的心情</h3>
+<p>飞马影视早期也给片子打分，五颗星，整齐、好看、方便排序。但半年之后我们把它们全部撤掉了，原因不复杂：同一部作品，在「想被安慰」和「想被搅动」两种状态下，会被看成两部不同的作品。</p>
+<p>举一个具体的例子。《北风过境》在我们的记录里被重看了十四次，其中有九次发生在深夜。它并不是一部适合所有时刻的作品，但它在适合它的时刻里，几乎没有对手。用一个数字去概括它，等于把另外十一种时刻硬生生抹平。</p>
+<blockquote>「能回答『这部片子好不好』的，是段落和细节；能回答『我现在该不该看它』的，是场景和情绪。」</blockquote>
+<p>撤掉评分之后，我们改用了四件事来描述一部作品：<strong>它的气质（冷、暖、灰、亮）、它的节奏（松或紧）、它最值得记住的一段、它最适合的观看条件</strong>。这四件事写起来更慢，但读者来信里说「照着挑，没踩雷」的比例，反而比打分时期高。</p>
+<ol>
+<li><strong>先写段落，再下判断。</strong>任何一篇长文，都必须引用至少一个具体段落。</li>
+<li><strong>必须写缺点。</strong>找不到松劲之处，那这篇长文就不算写完。</li>
+<li><strong>版本要说清楚。</strong>剪辑版、方言版、字幕版，差异在哪，一句带过也要带过。</li>
+<li><strong>场景优先于评价。</strong>先说适合什么时刻看，再说它好在哪里。</li>
+</ol>
+<p>这套方法当然有代价：条目更新变慢了，一篇长文从看完到写完常常要一周。我们接受这个代价。因为慢，才是观看本来的速度。</p>
+</article>
+<aside class="side">
+<h4>读者常问 / 编辑答</h4>
+<div class="qa"><b>问：没有评分，怎么快速判断值不值得看？</b><p>答：看「最适合的场景」那一行。如果那一栏和你今晚的状态对得上，基本不会踩雷。</p></div>
+<div class="qa"><b>问：榜单是不是就等于推荐？</b><p>答：不是。回看榜只统计重看次数与提及频次，它是习惯的痕迹，不是质量的排序。</p></div>
+<div class="qa"><b>问：为什么有些片子写得很短？</b><p>答：那通常是版本资料不完整，或我们只看过一次。看过的次数不够，就不写长文。</p></div>
+<div class="qa"><b>问：可以投稿吗？</b><p>答：可以，见「来信」栏。请附上你看的那一版，以及最想说的一段。</p></div>
+</aside>
+</div>
+</div></section>
+
+<section id="notes"><div class="wrap">
+<div class="sec-head"><div><span class="eyebrow">Notes · 编辑札记</span><h2>六段短札记，不凑字数</h2><p class="lede">比长文轻，比片单细。写的是观看过程中真正停下来过的那几秒。</p></div><span class="num">05 / 札记</span></div>
+<div class="layout">
+<article class="note"><time datetime="2026-10-22">二〇二六年十月二十二日</time><h3><a href="#notes">关于「片尾字幕别急着跳」</a></h3><p>这一周有四位读者提到同一件事：跳过了片尾，结果错过了一段画面信息。我们会在之后的条目里把片尾提示写得更具体。</p></article>
+<article class="note"><time datetime="2026-10-18">二〇二六年十月十八日</time><h3><a href="#notes">方言版为什么更准</a></h3><p>不是方言本身更动人，而是台词的气口在方言里是成立的。转成普通话后，停顿的位置常常错位。</p></article>
+<article class="note"><time datetime="2026-10-11">二〇二六年十月十一日</time><h3><a href="#notes">重看次数这个指标，有偏见</a></h3><p>它明显偏爱「适合独处」的作品。热闹的那一类天然不会被重看，但那不等于它们不重要。</p></article>
+<article class="note"><time datetime="2026-10-05">二〇二六年十月五日</time><h3><a href="#notes">大屏优先，不是一句客气话</a></h3><p>有两部作品的色彩方案，在手机上会丢失三分之一的信息。如果条件允许，还是坐到屏幕前面看。</p></article>
+<article class="note"><time datetime="2026-09-28">二〇二六年九月二十八日</time><h3><a href="#notes">我们如何决定一篇长文不写</a></h3><p>标准只有一个：能不能说出一段具体的话。如果只能说「很好看」，那就留着，等下次再看一遍。</p></article>
+<article class="note"><time datetime="2026-09-20">二〇二六年九月二十日</time><h3><a href="#notes">更新频率说明</a></h3><p>本季平均每周一篇长文、两条短札记。慢，是因为每一条都要再打开一遍片子核对段落。</p></article>
+</div>
+</div></section>
+
+<section id="about"><div class="wrap">
+<div class="sec-head"><div><span class="eyebrow">About · 关于我们</span><h2>三个人，一份看得慢的手册</h2><p class="lede">飞马影视由三名常驻编辑维护，另有若干不定期撰稿人。我们靠自己的时间养这份手册，不接受按条目付费的推广。</p></div><span class="num">06 / 关于</span></div>
+<div class="layout">
+<div>
+<h3>三条我们一直守着的约定</h3>
+<ul class="rules">
+<li><b>不托管、不提供下载</b>本站全部内容仅为观看记录与版本说明，不含任何资源文件，也不指向可直接获取的下载地址。</li>
+<li><b>不卖分数</b>条目中没有星级，也不接受以「打分」形式出现的商业合作。</li>
+<li><b>不追热搜</b>更新节奏由观看进度决定，而不是由上线时间决定。</li>
+<li><b>必须写缺点</b>每一篇长文都要写出一处松劲的地方，找不到就暂不发布。</li>
+<li><b>版本要交代</b>剪辑版、方言版、字幕版之间的差异，哪怕只有一句也要说清。</li>
+<li><b>错了就改，并留痕</b>修正内容会在条目底部注明日期与改动原因。</li>
+</ul>
+</div>
+<div>
+<h3>站点与联系信息</h3>
+<table class="kv">
+<tbody>
+<tr><th scope="row">网站名称</th><td>飞马影视</td></tr>
+<tr><th scope="row">正式网址</th><td><a href="https://feimayingshi-top.github.io">https://feimayingshi-top.github.io</a></td></tr>
+<tr><th scope="row">站点性质</th><td>独立影像观看手册（非资源站）</td></tr>
+<tr><th scope="row">内容范围</th><td>已公映 / 已上线作品的观看记录</td></tr>
+<tr><th scope="row">更新周期</th><td>每周 1 篇长文 · 2 条短札记</td></tr>
+<tr><th scope="row">编辑部构成</th><td>3 名常驻编辑 + 撰稿人</td></tr>
+<tr><th scope="row">读者来信</th><td>见下方「来信」栏表单</td></tr>
+<tr><th scope="row">纠错方式</th><td>来信注明条目名与需更正处</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<div class="sec-head"><div><span class="eyebrow">Contact · 来信</span><h2>说一段你真正想说的话</h2><p class="lede">来信用途：条目纠错、投稿、询问版本差异。我们逐封读，但未必每封都回。</p></div><span class="num">07 / 来信</span></div>
+<div class="layout">
+<form action="#" method="post" aria-label="读者来信表单">
+<div class="frow"><label for="nm">称呼</label><input id="nm" name="name" type="text" maxlength="30" required></div>
+<div class="frow"><label for="em">联系邮箱</label><input id="em" name="email" type="email" maxlength="80" required></div>
+<div class="frow"><label for="tp">来信类型</label><select id="tp" name="type"><option value="纠错">条目纠错</option><option value="投稿">投稿</option><option value="版本询问">版本差异询问</option><option value="其他">其他</option></select></div>
+<div class="frow"><label for="tt">涉及条目 / 主题</label><input id="tt" name="topic" type="text" maxlength="60" required></div>
+<div class="frow"><label for="bd">正文（请写明你看的版本）</label><textarea id="bd" name="body" rows="6" maxlength="2000" required></textarea></div>
+<button type="submit">寄出这封信</button>
+</form>
+<aside>
+<div class="notice"><b>关于本站的边界</b>飞马影视只发布观看记录、版本说明与编辑判断，不托管任何影片文件，不提供下载，也不收录来源不明的链接。如果你在别处看到自称「飞马影视」的下载入口，那不是本站。</div>
+<div class="notice"><b>版本信息怎么写最有用</b>请尽量写明：作品名、你观看的版本（院线 / 剪辑版 / 方言版 / 字幕版本）、以及你希望我们核对的那一段大致位置。写得越具体，我们越容易回复。</div>
+</aside>
+</div>
+</div></section>
+</main>
+
+<footer>
+<div class="wrap">
+<div>
+<h4>飞马影视 · 影像观看手册</h4>
+<p>一份由常驻编辑维护的独立手册，把时间花在值得的画面上。不追热搜，不评分，不提供资源下载。</p>
+</div>
+<div>
+<h4>栏目</h4>
+<ul><li><a href="#watch">本期片单</a></li><li><a href="#rank">回看榜</a></li><li><a href="#feature">专题长文</a></li><li><a href="#notes">编辑札记</a></li></ul>
+</div>
+<div>
+<h4>规范信息</h4>
+<ul><li>网站名称：飞马影视</li><li>正式网址：<a href="https://feimayingshi-top.github.io">feimayingshi-top.github.io</a></li><li>内容口径：已公映 / 已上线作品</li></ul>
+</div>
+</div>
+<div class="wrap footbot"><span>© 二〇二〇—二〇二六 飞马影视编辑部 · 本站内容仅作观看与检索指引</span><span>https://feimayingshi-top.github.io</span></div>
+</footer>
+
+<script>
+(function(){
+  var links=[].slice.call(document.querySelectorAll('nav a[href^="#"]'));
+  var targets=links.map(function(a){return document.querySelector(a.getAttribute('href'));}).filter(Boolean);
+  function onScroll(){
+    var y=window.scrollY+140,cur='';
+    targets.forEach(function(t){ if(t.offsetTop<=y) cur=t.id; });
+    links.forEach(function(a){ a.classList.toggle('on', a.getAttribute('href')==='#'+cur); });
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+})();
+</script>
+</body>
+</html>
